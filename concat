@@ -1,3 +1,8 @@
+Gambas program to concatenar=te two strings and checks whether it is a Palindrome or not.
+A palindrome is a word, phrase, or sequence that reads the same backwards as forwards. e.g. madam or nurses run.
+The UI (User Interface) can be made according to the user's needs.
+
+
 ' Gambas class file
 
 Public s1 As String
