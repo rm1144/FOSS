@@ -1,0 +1,27 @@
+' Gambas class file
+
+Public c As Integer
+Public Sub _new()
+c = 0
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub Number_KeyPress()
+
+  
+
+End
+
+Public Sub Check_Click()
+  c = CInt(Number.Text)
+  If c % 2 == 0 Then
+    Message.Info("Even Number")
+  Else
+    Message.Info("Odd Number")  
+  Endif
+
+End
+

@@ -1,0 +1,144 @@
+' Gambas class file
+
+Public e_1 As Integer
+Public e_2 As Integer
+Public e_3 As Integer
+Public e_4 As Integer
+Public e_5 As Integer
+Public e_6 As Integer
+Public e_7 As Integer
+Public e_8 As Integer
+Public e_9 As Integer
+Public f_1 As Integer
+Public f_2 As Integer
+Public f_3 As Integer
+Public f_4 As Integer
+Public f_5 As Integer
+Public f_6 As Integer
+Public f_7 As Integer
+Public f_8 As Integer
+Public f_9 As Integer
+Public a_1 As Integer
+Public a_2 As Integer
+Public a_3 As Integer
+Public a_4 As Integer
+Public a_5 As Integer
+Public a_6 As Integer
+Public a_7 As Integer
+Public a_8 As Integer
+Public a_9 As Integer
+Public Sub _new()
+e_1 = 0
+e_2 = 0
+e_3 = 0
+e_4 = 0
+e_5 = 0
+e_6 = 0
+e_7 = 0
+e_8 = 0
+e_9 = 0
+f_1 = 0
+f_2 = 0
+f_3 = 0
+f_4 = 0
+f_5 = 0
+f_6 = 0
+f_7 = 0
+f_8 = 0
+f_9 = 0
+a_1 = 0
+a_2 = 0
+a_3 = 0
+a_4 = 0
+a_5 = 0
+a_6 = 0
+a_7 = 0
+a_8 = 0
+a_9 = 0
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub add_Click()
+
+  e_1 = CInt(e1.Text)
+  e_2 = CInt(e2.Text)
+  e_3 = CInt(e3.Text)
+  e_4 = CInt(e4.Text)
+  e_5 = CInt(e5.Text)
+  e_6 = CInt(e6.Text)
+  e_7 = CInt(e7.Text)
+  e_8 = CInt(e8.Text)
+  e_9 = CInt(e9.Text)
+  f_1 = CInt(f1.Text)
+  f_2 = CInt(f2.Text)
+  f_3 = CInt(f3.Text)
+  f_4 = CInt(f4.Text)
+  f_5 = CInt(f5.Text)
+  f_6 = CInt(f6.Text)
+  f_7 = CInt(f7.Text)
+  f_8 = CInt(f8.Text)
+  f_9 = CInt(f9.Text)
+  a_1 = e_1 + f_1
+  a_2 = e_2 + f_2
+  a_3 = e_3 + f_3
+  a_4 = e_4 + f_4
+  a_5 = e_5 + f_5
+  a_6 = e_6 + f_6
+  a_7 = e_7 + f_7
+  a_8 = e_8 + f_8
+  a_9 = e_9 + f_9
+  A1.Text = a_1
+  A2.Text = a_2
+  A3.Text = a_3
+  A4.Text = a_4
+  A5.Text = a_5
+  A6.Text = a_6
+  A7.Text = a_7
+  A8.Text = a_8
+  A9.Text = a_9
+End
+
+Public Sub subtract_Click()
+  e_1 = CInt(e1.Text)
+  e_2 = CInt(e2.Text)
+  e_3 = CInt(e3.Text)
+  e_4 = CInt(e4.Text)
+  e_5 = CInt(e5.Text)
+  e_6 = CInt(e6.Text)
+  e_7 = CInt(e7.Text)
+  e_8 = CInt(e8.Text)
+  e_9 = CInt(e9.Text)
+  f_1 = CInt(f1.Text)
+  f_2 = CInt(f2.Text)
+  f_3 = CInt(f3.Text)
+  f_4 = CInt(f4.Text)
+  f_5 = CInt(f5.Text)
+  f_6 = CInt(f6.Text)
+  f_7 = CInt(f7.Text)
+  f_8 = CInt(f8.Text)
+  f_9 = CInt(f9.Text)
+  a_1 = e_1 - f_1
+  a_2 = e_2 - f_2
+  a_3 = e_3 - f_3
+  a_4 = e_4 - f_4
+  a_5 = e_5 - f_5
+  a_6 = e_6 - f_6
+  a_7 = e_7 - f_7
+  a_8 = e_8 - f_8
+  a_9 = e_9 - f_9
+  A1.Text = a_1
+  A2.Text = a_2
+  A3.Text = a_3
+  A4.Text = a_4
+  A5.Text = a_5
+  A6.Text = a_6
+  A7.Text = a_7
+  A8.Text = a_8
+  A9.Text = a_9
+  
+
+End
+

@@ -1,0 +1,51 @@
+' Gambas class file
+
+Public s1 As String
+Public s2 As String
+Public s3 As String
+Public flag As Integer
+Public i As Integer
+Public j As Integer
+Public m As Integer
+Public a As String
+Public b As String
+Public Sub _new()
+i = 1
+flag = 0
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub newstring_KeyPress()
+ 
+End
+
+Public Sub concatenate_Click()
+
+   s1 = string1.Text
+  s2 = string2.Text
+  s3 = s1 & s2
+  newstring.Text = s3 
+  j = Len(s3)
+  m = j
+  While i <= m
+    a = Mid(s3, i, 1)
+    b = Mid(s3, j, 1)
+    If Comp(a, b) <> 0 Then
+      flag = 1
+    Break
+    Else
+      i = i + 1
+      j = j - 1  
+    Endif
+  Wend
+  If flag <> 1 Then
+    result.Text = "PALINDROME"
+    Else
+      result.Text = "NOT PALINDROME"
+  Endif
+
+End
+

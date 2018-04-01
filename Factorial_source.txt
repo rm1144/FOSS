@@ -1,0 +1,22 @@
+' Gambas class file
+
+Public f As Integer
+Public c As Integer
+Public Sub _new()
+  f = 1
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub fact_Click()
+c = CInt(Number.Text)
+While c > 0
+  f = f * c
+  c = c - 1
+Wend
+  
+Result.Text = f
+End
+

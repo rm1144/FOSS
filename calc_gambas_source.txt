@@ -1,0 +1,55 @@
+' Gambas class file
+
+ Public c As Integer
+ Public d As Integer
+ Public a As Integer
+Public Sub _new()
+ Message.Info("WELCOME")
+ c = 0
+ d = 0
+ a = 0
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub Number1_KeyPress()
+
+  
+
+End
+
+Public Sub Add_Click()
+  c = CInt(Number1.Text)
+  d = CInt(Number2.Text)
+  a = c + d
+  Result.Text = a
+End
+
+Public Sub Subtract_Click()
+
+  c = CInt(Number1.Text)
+  d = CInt(Number2.Text)
+  a = c - d
+  Result.Text = a
+
+End
+
+Public Sub Multiplication_Click()
+
+  c = CInt(Number1.Text)
+  d = CInt(Number2.Text)
+  a = c * d
+  Result.Text = a
+
+End
+
+Public Sub Division_Click()
+
+  c = CInt(Number1.Text)
+  d = CInt(Number2.Text)
+  a = c / d
+  Result.Text = a
+End
+
