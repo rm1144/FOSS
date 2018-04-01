@@ -1,3 +1,7 @@
+Gambas program to find factorial of a number.
+The UI (User Interface) can be made according to the user's needs.
+
+
 ' Gambas class file
 
 Public f As Integer
