@@ -1,3 +1,8 @@
+Gambas program to make a calculator.
+The UI (User Interface) can be made according to the user's needs.
+
+
+
 ' Gambas class file
 
 Public c As Integer
